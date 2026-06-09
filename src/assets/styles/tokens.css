@@ -1,0 +1,48 @@
+/* =========================================================================
+   tokens.css — les "design tokens" de la marque Wave.
+   On centralise ici toutes les valeurs réutilisables (couleurs, espacements,
+   rayons, polices). Aucun composant ne doit coder une couleur "en dur".
+   ========================================================================= */
+:root {
+  /* Couleurs de marque (relevées sur la maquette) */
+  --wave-cyan:       #18BEF2;
+  --wave-cyan-deep:  #0FA6DE;
+  --wave-navy:       #14104B;
+  --wave-indigo:     #4136F5;
+  --wave-purple:     #4B3FD4;  /* écran de l'app dans le mockup */
+  --wave-yellow:     #FBD24E;
+  --wave-orange:     #C13A0E;  /* bandeau « We're hiring » */
+
+  /* Section témoignages */
+  --wave-maroon:      #8A2A12;
+  --wave-yellow-card: #F9CD55;
+  --wave-brown:       #B5531B;  /* guillemets + nom du client */
+
+  /* Neutres */
+  --paper:   #F7F7F8;
+  --white:   #FFFFFF;
+  --ink:     #14104B;
+  --ink-soft:#57537C;
+  --line:    #ECEEF4;
+  --black:   #1A1A1A;
+
+  /* Typographie */
+  --font: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+
+  /* Espacements */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 40px;
+  --space-6: 64px;
+  --space-7: 96px;
+
+  /* Rayons & ombres */
+  --radius:   16px;
+  --radius-s: 10px;
+  --shadow:   0 18px 40px -20px rgba(20, 16, 75, .28);
+
+  /* Largeur max de contenu */
+  --container: 1240px;
+}
